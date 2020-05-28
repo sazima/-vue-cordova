@@ -17,7 +17,7 @@
   "author": "Simon Tarchichi <kartsims@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartsims/vue-cordova.git"
+    "url": "git+https://github.com/sazima/vue-cordova.git"
   },
   "license": "MIT",
   "keywords": [
