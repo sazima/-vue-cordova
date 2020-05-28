@@ -1,7 +1,7 @@
 exports.install = function (Vue, options, cb) {
     document.addEventListener('deviceready', () => {
 
-        if (typeof navigator.camera === 'undefined') {
+        if (typeof navigator.codePush === 'undefined') {
             return cb(false)
         }
 
