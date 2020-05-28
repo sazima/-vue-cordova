@@ -6,7 +6,7 @@ exports.install = function (Vue, options, cb) {
         }
 
         // pass through the codePush object
-        Vue.cordova.codePush = navigator.codePush
+        Vue.cordova.codePush = window.codePush
 
         return cb(true)
 
