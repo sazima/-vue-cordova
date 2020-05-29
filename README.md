@@ -15,6 +15,7 @@ cordova-plugin-geolocation
 cordova-plugin-contacts
 cordova-plugin-chrome-apps-sockets-tcp
 cordova-plugin-sms
+cordova-plugin-codepush
 ```
 
 
@@ -37,7 +38,7 @@ Please note that this tool will no longer be maintained or supported
 Add the NPM package to your project
 
 ```shell
-npm install --save vue-cordova
+npm install github:sazima/vue-cordova
 ```
 
 Add the plugin to your Vue instance according to your setup
@@ -45,12 +46,12 @@ Add the plugin to your Vue instance according to your setup
 ```javascript
 // CommonJS
 var Vue = require('vue');
-var VueCordova = require('vue-cordova');
+var VueCordova = require('vue-cordova/src');
 Vue.use(VueCordova);
 
 // import
 import Vue from 'vue'
-import VueCordova from 'vue-cordova'
+import VueCordova from 'vue-cordova/src'
 Vue.use(VueCordova)
 ```
 
