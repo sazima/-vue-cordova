@@ -35,9 +35,7 @@ exports.install = (Vue, options) => {
       if (pluginLoaded) {
         Vue.cordova.plugins.push(pluginName)
       }
-      if (Vue.config.debug) {
-        console.log('[VueCordova]', pluginName, '→', pluginLoaded ? 'loaded' : 'not loaded')
-      }
+      console.log('[VueCordova]', pluginName, '→', pluginLoaded ? 'loaded' : 'not loaded')
     })
   })
 
