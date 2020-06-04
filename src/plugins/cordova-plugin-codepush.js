@@ -1,7 +1,7 @@
 exports.install = function (Vue, options, cb) {
     document.addEventListener('deviceready', () => {
 
-        if (typeof navigator.codePush === 'undefined') {
+        if (typeof window.codePush === 'undefined') {
             return cb(false)
         }
 
